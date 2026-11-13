@@ -1,5 +1,293 @@
 # Change Log
 
+## 1.21.0 - Update (06 June 2026)
+
+- Updated name mappings for NMS 6.4 (The Swarm).
+- Added new items / rewards
+
+## 1.20.0 - Update (04 March 2026)
+
+- Updated name mappings for NMS 6.2 (Remnant).
+- Added new items / rewards
+
+## 1.19.0 - Update (30 August 2025)
+
+- Updated name mappings for NMS 6.0 (Voyagers).
+- Added new items / rewards
+- Added new Corvette ship type
+
+## 1.18.1 - Update (29 March 2025)
+
+- Updated name mappings for NMS 5.6 (Relics).
+- Added new items / rewards
+
+## 1.18.0 - Update (1 February 2025)
+
+- Updated name mappings for NMS 5.5 (Worlds II).
+- Added new items / rewards
+
+## 1.17.7 - Update (28 October 2024)
+
+- Updated name mappings for NMS 5.21 (Cursed).
+- Additional fixes for metadata formats
+
+## 1.17.6 - Update (26 October 2024)
+
+- Added new items / rewards for NMS 5.21 (Cursed).
+- Fix for Steam save file format
+
+## 1.17.5 - Update (15 September 2024)
+
+- Added missing name mappings.
+- Fix for WGS / XBox Game Pass save file format.
+- Added Skiff to vehicles section
+- Added Fish items
+
+## 1.17.2 - Update (09 September 2024)
+
+- Updated items and name mappings for NMS 5.11 (Aquarius).
+
+## 1.17.1 - Update (21 July 2024)
+
+- Fixed issue with metadata save format for Steam version
+
+## 1.17.0 - Update (21 July 2024)
+
+- Updated items and name mappings for NMS 5.0 (Worlds Part 1).
+- Updated metadata save format for Steam version
+
+## 1.16.0 - Update (06 June 2024)
+
+- Updated items and name mappings for NMS 4.71 (Adrift).
+
+## 1.15.6 - Update (04 April 2024)
+
+- More fixes for the WGS / XBox Game Pass meta data format.
+
+## 1.15.5 - Update (03 April 2024)
+
+- Fixes for the WGS / XBox Game Pass meta data format.
+
+## 1.15.4 - Update (02 April 2024)
+
+- Overhaul of the WGS / XBox Game Pass save file format.
+
+## 1.15.3 - Update (02 April 2024)
+
+- Updated items and name mappings for NMS 4.63 (Orbital).
+- Fixed directory issues with file open/save dialogs
+- Added customisation parts to add item dialogs
+
+## 1.15.2 - Update (17 February 2024)
+
+- Added new freighter, multitool, and ship types for Omega.
+
+## 1.15.1 - Update (17 February 2024)
+
+- Added expedition context for save files.
+
+## 1.15.0 - Update (17 February 2024)
+
+- Updated name mappings for NMS 4.51 (Omega).
+- Added new season rewards, items, etc.
+- Updated to new save file format.
+
+## 1.14.4 - Update (01 September 2023)
+
+- Updated items list.
+- Fixed issues with known words section.
+- Fixed issues with file paths.
+
+## 1.14.3 - Update (26 August 2023)
+
+- Updated name mappings for NMS 4.40 (Echoes).
+- Added new Autophage language to discovery tab.
+- Added new Multitool types (Staff, etc).
+- Added new season rewards, items, etc.
+
+## 1.14.2 - Update (5 June 2023)
+
+- Improved settlement listing to show only settlements with teleport endpoints.
+- Updated settlement perks to allow any number of perks (determined by save file).
+- Fixed issue where non-technology items were showing up as broken due to damage factor.
+- Fixed highlight color in JSON editor so that it works in dark mode.
+- Updated UI colors for positive and negative traits / perks.
+- Updated coordinate viewer to allow any first glyph (warp still only goes to space).
+- Updated mappings for NMS 4.26
+- Removed buildable parts from add item dialog.
+
+## 1.14.1 - Update (5 May 2023)
+
+- Updated logging functionality
+
+## 1.14.0 - Update (4 May 2023)
+
+- Full overhaul of the editor UI, using selectable Look & Feel options (including Dark mode)
+
+## 1.13.10 - Update (3 May 2023)
+
+- Updated techbox icons and text
+- Fixed potential issue with icons on discovery tab
+
+## 1.13.9 - Update (1 May 2023)
+
+- Improved Add Item dialog search feature
+- Implemented archived technology packages properly in UI
+- Removed unused inventory containers from UI
+- Updated Move Item dialog to show names of multitool/ship where possible
+- Fixed issue with sorters on discovery tab
+
+## 1.13.8 - Update (29 April 2023)
+
+- Another fix for the issue with \uFFFF encodings in JSON Editor (hopefully the last)
+
+## 1.13.7 - Update (28 April 2023)
+
+- Fixed issue with \uFFFF encodings in JSON Editor
+- Changed Archived Techs to show encoded product IDs instead of raw data
+
+## 1.13.6 - Update (25 April 2023)
+
+- Updated name mapper to support files that are incorrectly mapped (PS4 Save Wizard)
+
+## 1.13.5 - Update (25 April 2023)
+
+- Fixed issues with JSON Editor
+
+## 1.13.4 - Update (25 April 2023)
+
+- Improved delete/import functionality for multitool/ship/companion lists
+- Added missing techboxes and companion eggs to item lists
+- Updated stack size rules to match game files
+- Tweaked PS4-SaveWizard format to allow for name mappings (if available)
+
+## 1.13.3 - Update (24 April 2023)
+
+- Added base storage container names
+- Fixed issues with multitool updates / deletions
+- Added support for extended JS string formats in import/export
+- Reduced the number of property change events caused by array changes
+- Fixed NPE in steam storage
+
+## 1.13.2 - Update (24 April 2023)
+
+- Fixed array removal issue (affecting supercharge, data imports, and account unlocks)
+
+## 1.13.1 - Update (23 April 2023)
+
+- Fixed "invalid token" issue caused by mixed character encodings
+- Changed JSON Editor to start from first tree node (PlayerStateData / UserSettingsData)
+
+## 1.13.0 - Update (23 April 2023)
+
+- Overhaul of JSON reader/writer functionality to improve support for unicode
+- Improved responsiveness of all file open/save dialogs
+- Added missing name mappings
+- Added save name / description fields to main UI
+- Fixed issue where consumable products were defaulting to stack size 1
+- Added platform rewards to Account tab
+- Changed NMSSaveEditor.conf format to JSON
+
+## 1.12.0 - Update (9 April 2023)
+
+- Overhaul of export/import functionality for freighters to include more details and inventory data
+- Added Horizon Vector NX ship type
+- Added Product/Substance export checkbox to ship/freighter backup dialogs
+
+## 1.11.9 - Update (8 April 2023)
+
+- Added maneuverability stat for all ship types
+- Updated bases list to include newer base versions
+- Re-enabled backup/restore function for bases / freighter bases
+- Updated inventory stack sizes to reflect the real container settings
+
+## 1.11.8 - Update (8 April 2023)
+
+- Added Golden Vector and Utopia Speeder to ship types
+
+## 1.11.7 - Update (8 April 2023)
+
+- Added supercharge all slots context menu item
+- Added supercharge feature for suit tech inventory
+- Fixed potential bug with multitool indexing, blocking saves
+
+## 1.11.6 - Update (7 April 2023)
+
+- Updated name mappings for NMS 4.2 (Interceptor).
+- Added new items
+- Added new sentinel ship type
+- Added missing creature types (spider quads & mini robo)
+- Added supercharge feature for tech inventories
+- Added sentinel and switch multitools
+
+## 1.11.5 - Update (25 February 2023)
+
+- Updated name mappings for NMS 4.1 (Fractal).
+
+## 1.11.4 - Update (24 February 2023)
+
+- Added new items.
+
+## 1.11.3 - Update (7 December 2022)
+
+- Added new items.
+
+## 1.11.2 - Update (10 October 2022)
+
+- Increased technology inventory sizes for Suit/Ship/Freighter to 10x6.
+- Added fix for corrupted account data files.
+- Implemented more fixes for save format including metadata.
+
+## 1.11.1 - Update (9 October 2022)
+
+- Added Relaxed and Custom game modes.
+
+## 1.11.0 - Update (9 October 2022)
+
+- Updated name mappings and items for NMS 4.03 (Waypoint).
+- Updated inventory structures for Waypoint saves.
+- Removed change stack sizes button (test mode).
+- Implemented numerous fixes for new save format.
+
+## 1.10.7 - Update (27 July 2022)
+
+- Added missing LandJellyFish and SpaceFloater creature types.
+
+## 1.10.6 - Update (25 July 2022)
+
+- Fixed issue with Living (DeepSpaceCommon) frigates.
+- Fixed issue with bases not showing up after update.
+
+## 1.10.5 - Update (22 July 2022)
+
+- Split savegame and account name mapping lists due to conflicts.
+- Updated name mappings and items for NMS 3.94 (Endurance).
+- Added new living frigate types and fixed a few issues in trait setup.
+- Added Freighter Cargo inventory.
+
+## 1.10.4 - Update (1 July 2022)
+
+- Added Leviathan frigate to list of frigate types.
+
+## 1.10.3 - Update (1 July 2022)
+
+- Updated name mappings for NMS 3.91
+
+## 1.10.2 - Update (27 May 2022)
+
+- Updated name mappings and items for NMS 3.90 (Leviathan)
+
+## 1.10.1 - Update (21 April 2022)
+
+- Added Squadron tab with the ability to modify the wingman data.
+- Updated name mappings
+
+## 1.10.0 - Update (19 April 2022)
+
+- Updated items list and name mappings for NMS 3.85 (Outlaws)
+- Added new Cargo inventory for ships (named "Inflated Sacs" in living ship).
+- Added new ship type: Solar.
+
 ## 1.9.10 - Update (9 March 2022)
 
 - Added new FontScaling setting in the NMSSaveEditor.conf file for more control over editor font sizes.
